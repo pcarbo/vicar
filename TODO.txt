@@ -1,1 +1,7 @@
-*Add suggested to-do items here.*
+To do
+=====
+
+Suggestions
+===========
+* You may want to put the non-package files in the inst directory
+  (e.g., vicar.bib, revdep).

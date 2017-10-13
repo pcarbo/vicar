@@ -147,7 +147,7 @@ test_that("bfl works OK", {
 )
 
 test_that("bfa_gd_gibbs works ok", {
-dat <- readRDS("bfa_gd_examp.Rds")
+dat <- readRDS("bfa_gd_examp.rds")
 Y22out <- bfa_gd_gibbs(Linit = dat$Linit, Finit = dat$Finit,
                        xi_init = dat$xi_init, phi_init = dat$phi_init,
                        zeta_init = dat$zeta_init, theta_init = dat$theta_init,
@@ -158,7 +158,7 @@ Y22out <- bfa_gd_gibbs(Linit = dat$Linit, Finit = dat$Finit,
                        nu_0 = 1, beta_0 = 1, eta_0 = 1, tau_0 = 1,
                        hetero_factors = TRUE, display_progress = FALSE)
 
-dat2 <- readRDS("bfa_gd_examp2.Rds")
+dat2 <- readRDS("bfa_gd_examp2.rds")
 Y22out <- bfa_gd_gibbs(Linit = dat2$Linit, Finit = dat2$Finit,
                        xi_init = dat2$xi_init, phi_init = dat2$phi_init,
                        zeta_init = dat2$zeta_init, theta_init = dat2$theta_init,

@@ -5,11 +5,7 @@
 using namespace Rcpp;
 using namespace arma;
 
-
-
 //' Fast Gibbs sampler for Bayesian factor analysis.
-//'
-//'
 //'
 //' @param Y22init A matrix of numerics. The initial value of Y22.
 //' @param Y21 A matrix of numerics.
@@ -47,7 +43,6 @@ using namespace arma;
 //'
 //' @author David Gerard
 //' @export
-//'
 //'
 // [[Rcpp::export]]
 List bfa_gd_gibbs(NumericMatrix Linit, NumericMatrix Finit, NumericVector xi_init,
@@ -115,7 +110,6 @@ List bfa_gd_gibbs(NumericMatrix Linit, NumericMatrix Finit, NumericVector xi_ini
       check_index++;
       current_check_index = check_indices[check_index];
     }
-
 
     // Update Lcurrent --------------------------------------------------------
     vec Leigval;
@@ -201,20 +195,11 @@ List bfa_gd_gibbs(NumericMatrix Linit, NumericMatrix Finit, NumericVector xi_ini
 		      _["phi"] = phi_vec);
 }
 
-
-
-
-
 //' Fast Gibbs sampler for Bayesian factor analysis.
 //'
 //' This is very similar to \code{\link{bfa_gd_gibbs}} except that we link the precisions
 //' of the observations with the precisions of the factors. For some reason, this works
 //' very well in practice.
-//'
-//'
-//'
-//'
-//'
 //'
 //' @param Y22init A matrix of numerics. The initial value of Y22.
 //' @param Y21 A matrix of numerics.
@@ -242,7 +227,6 @@ List bfa_gd_gibbs(NumericMatrix Linit, NumericMatrix Finit, NumericVector xi_ini
 //'
 //' @author David Gerard
 //' @export
-//'
 //'
 // [[Rcpp::export]]
 List bfa_gs_linked_gibbs(NumericMatrix Linit, NumericMatrix Finit, NumericVector xi_init,
@@ -309,7 +293,6 @@ List bfa_gs_linked_gibbs(NumericMatrix Linit, NumericMatrix Finit, NumericVector
       current_check_index = check_indices[check_index];
     }
 
-
     // Update Lcurrent --------------------------------------------------------
     vec Leigval;
     mat Leigvec;
@@ -354,7 +337,6 @@ List bfa_gs_linked_gibbs(NumericMatrix Linit, NumericMatrix Finit, NumericVector
       double zeta_scale = 2 / (eta_0 * tau_0 + Lsumvec[zindex]);
       zeta_current[zindex] = R::rgamma(zeta_shape, zeta_scale);
     }
-
 
     // Update Y22current and Ycurrent -----------------------------------------
     mat Y22mean = mean_current.submat(0, ncontrols, ncov - 1, p - 1);
