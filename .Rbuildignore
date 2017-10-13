@@ -3,9 +3,10 @@
 ^README\.Rmd$
 ^README-.*\.png$
 ^\.travis\.yml$
-^LICENSE
-^vicar.bib
-^README.html
+^LICENSE$
+^vicar\.bib$
+^README\.html$
+^TODO\.txt$
 ^News\.md$
 ^NEWS\.md$
 ^appveyor\.yml$
