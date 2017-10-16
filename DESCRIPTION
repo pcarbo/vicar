@@ -33,7 +33,6 @@ Imports: ruv,
     bfa,
     ashr,
     Rcpp,
-    RcppArmadillo,
     RcppProgress
 Suggests: testthat,
     impute,

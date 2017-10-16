@@ -25,9 +25,15 @@ confounding in linear regression, with or without control genes.
 
 ## Citing vicar
 
+If you find that this software is useful for your research, please
+cite our paper. See [here](inst/CITATION) more information.
+
 *It is better to add this info to [inst/CITATION](inst/CITATION) and
 then the citation info can be obtained by viewing this file or by
-running `citation("vicar")` in R.
+running `citation("vicar")` in R. I've added placeholder citation
+info. I realize that your citation info is a little bit more
+complicated because you have several papers that could be cited, but I
+think that can be incorporated into the CITATION file.*
 
 ## Description
 
