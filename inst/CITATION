@@ -1,0 +1,15 @@
+citHeader("To cite the vicar package in publications use:")
+
+citEntry(entry="Article",
+         title   = 
+	 paste("Unifying and generalizing methods for removing unwanted",
+               "variation based on negative controls"),
+         author  = "David Gerard and Matthew Stephens",
+         journal = "arXiv",
+         volume  = "1705.08393",
+         year    = "2017",
+         url     = "https://arxiv.org/abs/1709.10066",
+         textVersion = 
+         paste("David Gerard and Matthew Stephens (2017). Unifying and",
+               "generalizing methods for removing unwanted variation based",
+               "on negative controls"))

@@ -23,6 +23,12 @@ knitr::opts_chunk$set(
 R package implementing many methods for accounting for unobserved
 confounding in linear regression, with or without control genes.
 
+*Give computing environment used to test package.*
+
+## Quick Start
+
+*Add quick start instructions here.*
+
 ## Citing vicar
 
 If you find that this software is useful for your research, please
@@ -30,10 +36,10 @@ cite our paper. See [here](inst/CITATION) more information.
 
 *It is better to add this info to [inst/CITATION](inst/CITATION) and
 then the citation info can be obtained by viewing this file or by
-running `citation("vicar")` in R. I've added placeholder citation
-info. I realize that your citation info is a little bit more
-complicated because you have several papers that could be cited, but I
-think that can be incorporated into the CITATION file.*
+running `citation("vicar")` in R. I've added placeholder citation info
+(please fix as needed). I realize that your citation info is a little
+bit more complicated because you have several papers that could be
+cited, but I think that can be incorporated into the CITATION file.*
 
 ## Description
 
@@ -79,53 +85,6 @@ See also the related R packages
 [@bartsch2015ruv].
 
 Check out [NEWS.md](NEWS.md) to see what's new with each version.
-
-## How to cite
-
-If you use any of the control-gene based methods, please cite:
-
-> Gerard, D., & Stephens, M. 2017. *Unifying and Generalizing Methods for Removing Unwanted Variation Based on Negative Controls*. arXiv preprint 	arXiv:1705.08393 [https://arxiv.org/abs/1705.08393](https://arxiv.org/abs/1705.08393).
-
-Or, using BibTex:
-``` tex
-@article{gerard2017unifying,
-  title={Unifying and Generalizing Methods for Removing Unwanted Variation Based on Negative Controls},
-  author={Gerard, David and Stephens, Matthew},
-  journal={arXiv preprint arXiv:1705.08393},
-  url={https://arxiv.org/abs/1705.08393},
-  year={2017}
-}
-```
-
-If you use either MOUTHWASH or BACKWASH, please cite:
-
-> Gerard, D., & Stephens, M. 2017. *Empirical Bayes Shrinkage and False Discovery Rate Estimation, Allowing For Unwanted Variation*. arXiv preprint arXiv:1709.10066 [https://arxiv.org/abs/1709.10066](https://arxiv.org/abs/1709.10066).
-
-Or, using BibTex:
-``` tex
-@article{gerard2017empirical,
-  title={Empirical {B}ayes Shrinkage and False Discovery Rate Estimation, Allowing For Unwanted Variation},
-  author={Gerard, David and Stephens, Matthew},
-  journal={arXiv preprint arXiv:1709.10066},
-  url={https://arxiv.org/abs/1709.10066},
-  year={2017}
-}
-```
-
-Otherwise, please cite this package as:
-
-> Gerard, David. 2016. *vicar: Various Ideas for Confounder Adjustment in Regression*. [https://github.com/dcgerard/vicar](https://github.com/dcgerard/vicar).
-
-Or, using BibTex:
-``` tex
-@Manual{gerard2016vicar,
-    title = {{vicar}: Various Ideas for Confounder Adjustment in Regression},
-    author = {David Gerard},
-    year = {2016},
-    note = {R package version 0.1.6},
-    url = {https://github.com/dcgerard/vicar},
-}
-```
 
 ## Installation
 To install, run in R:

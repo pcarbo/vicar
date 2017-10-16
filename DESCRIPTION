@@ -12,10 +12,9 @@ Description: Implements many methods for accounting for unobserved confounding
              then MOUTHWASH (mouthwash) and BACKWASH (backwash) are excellent
              procedures to use as long as only one covariate is of interest.
 URL: https://github.com/dcgerard/vicar
-BugReports: http://github.com/dcgerard/vicar/issues
+BugReports: https://github.com/dcgerard/vicar/issues
 License: GPL-3
 LazyData: TRUE
-RoxygenNote: 6.0.1
 LinkingTo: Rcpp,
     RcppArmadillo,
     RcppProgress
@@ -51,3 +50,4 @@ LinkingTo: RcppArmadillo,
     Rcpp,
     RcppProgress
 VignetteBuilder: knitr
+RoxygenNote: 6.0.1

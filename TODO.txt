@@ -1,8 +1,14 @@
 To do
 =====
 
+To-do items go here.
+
 Suggestions
 ===========
 
 * I put the non-package files in the inst directory (e.g., vicar.bib,
   revdep). Please check that this is okay.
+
+* Have you tested your package in R 2.10? That is a pretty old
+  version---I would check that it actually works in that version, or
+  give a larger version number!
