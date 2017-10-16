@@ -3,5 +3,6 @@ To do
 
 Suggestions
 ===========
-* You may want to put the non-package files in the inst directory
-  (e.g., vicar.bib, revdep).
+
+* I put the non-package files in the inst directory (e.g., vicar.bib,
+  revdep). Please check that this is okay.
